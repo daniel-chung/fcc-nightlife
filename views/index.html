@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+
+<html>
+	<head>
+		<title></title>
+
+		<!--css style sheets-->
+		<link rel="stylesheet" href="/css/main.css">
+
+		<!--javascript libraries-->
+		<script src="http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+	</head>
+
+	<body>
+
+	<div class="header-outer">
+		<div class='header'>
+	    <!-- TITLE -->
+	    <h1>Bar Hop</h1>
+
+	    <!-- SUB TITLE / DESCRIPTION -->
+	    <p>RSVP to your favorite bars and see what's hopping!</p>
+
+	    <!-- BAR SEARCH FORM -->
+	    <form id="yelp-search">
+	        <div class="form-group">
+						<div class="form-group search-input">
+							<input type="text" name="loc" placeholder="e.g., New York City">
+						</div>
+						<div class="form-group search-submit">
+							<button type="submit">Go</button>
+						</div>
+	        </div>
+	    </form>
+			<br>
+		</div>
+	</div>
+
+		<!-- Search Results -->
+		<div class="search-results"></div>
+
+		<!--additional javascript files to load-->
+		<script type="text/javascript" src="/controllers/yelpController.client.js"></script>
+	</body>
+</html>
