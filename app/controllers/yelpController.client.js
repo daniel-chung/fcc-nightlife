@@ -60,6 +60,7 @@ $(document).ready(function() {
   };
 
   function loadBusiness(searchTerm) {
+    console.log(searchTerm);
     $.get(appUrl+"/api/search/"+searchTerm, function(data) {
       $('.search-results').html('');
       var results = data.businesses; // yelp search results, n=20
