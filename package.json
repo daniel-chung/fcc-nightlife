@@ -25,5 +25,8 @@
   "repository": {
     "type": "git",
     "url": "."
+  },
+  "engines": {
+    "node": "4.2.2"
   }
 }
